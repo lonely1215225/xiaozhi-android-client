@@ -14,7 +14,7 @@ import 'package:flutter_pcm_player/flutter_pcm_player.dart';
 /// 音频工具类，用于处理Opus音频编解码和录制播放
 class AudioUtil {
   static const String TAG = "AudioUtil";
-  static const int SAMPLE_RATE = 16000;
+  static const int SAMPLE_RATE = 48000;
   static const int CHANNELS = 1;
   static const int FRAME_DURATION = 60; // 毫秒
 
